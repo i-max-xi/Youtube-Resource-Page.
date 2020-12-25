@@ -1,0 +1,9 @@
+body{
+    background-image: url(/Assets/ideal.jpg);
+}
+.dwnld_link{
+    position: absolute;
+    top: 40%;
+    left: 21%;
+    font-weight: 700;
+}
