@@ -1,0 +1,16 @@
+body{
+    color: black;
+}
+
+header{
+    color: black;
+}
+#Navbar li{
+    display: inline;
+    text-decoration: none;
+    margin: 15px;
+}
+
+footer{
+    padding: -30px;
+}
