@@ -14,3 +14,19 @@ header{
 footer{
     padding: -30px;
 }
+.portions{
+    padding: 10%;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.795) 1px 2px 0px 2px;
+}
+.portion-1{
+    background-color: yellow;
+}
+.portion-3{
+    background-color: wheat;
+}
+.portion-4{
+    background-color: blue;
+}
+
+
