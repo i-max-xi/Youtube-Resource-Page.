@@ -11,21 +11,6 @@ header{
     margin: 15px;
 }
 
-footer{
-    padding: -30px;
-}
-
-.portion-1{
-    background-color: yellow;
-}
-.portion-3{
-    background-color: wheat;
-    padding: 5%;
-}
-.portion-4{
-    background-color: blue;
-    padding: 5%;
-}
 #logo{
     box-shadow: 1px 1px 2px 2px black;
 }
