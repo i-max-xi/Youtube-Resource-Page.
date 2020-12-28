@@ -14,25 +14,23 @@ header{
 footer{
     padding: -30px;
 }
-.portions{
-    padding: 5%;
-    margin: 10px;
-    box-shadow: rgba(0, 0, 0, 0.74) 1px 2px 0px 2px;
-}
+
 .portion-1{
     background-color: yellow;
 }
 .portion-3{
     background-color: wheat;
+    padding: 5%;
 }
 .portion-4{
     background-color: blue;
+    padding: 5%;
 }
 #logo{
     box-shadow: 1px 1px 2px 2px black;
 }
-.links{
-    margin: 8px;
+.card{
+    margin: 10px;
 }
 
 
