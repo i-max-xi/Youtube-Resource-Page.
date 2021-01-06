@@ -20,4 +20,10 @@ header{
 .carousel_images{
     width: 130px;
 }
+.carousel-item{
+    text-align: center;
+}
+.carousel_video{
+    width: 45%;
+}
 
