@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 , shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1 , shrink-to-fit=no">
     <link rel="stylesheet" href="styles/styles.css" type="text/css">
     <link rel="stylesheet" href="styles/fontawesome-free-5.15.1-web/css/all.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
@@ -25,16 +25,19 @@
                         <li class="nav-item"><a href="#" data-toggle="modal" data-target="#aboutModal"><span class="fa fa-info fa-lg"></span> About</a></li>
                         <li class="nav-item"><a href="pages/resources.html"><span class="fa fa-list fa-lg"></span> Resources</a></li>
                         <li class="nav-item"><a href="#email" onclick="alert('Contact us by mail')"><span class="fa fa-book fa-lg"></span> Contact</a></li>
+                        <li class="nav-item">
+                            <a data-toggle="modal" data-target="#SupportModal">
+                                <span class="fa fa-sign-in"></span> Support Us
+                            </a>
+                        </li>
                     </ul>
-                    <!-- <span class="navbar-text">
-                        <a data-toggle="modal" data-target="#loginModal">
-                            <span class="fa fa-sign-in"></span> Support Us
-                        </a>
-                    </span> -->
+                 
                 </div>
             </div>
         </nav>
     </header>
+
+    <!-- put supportModal here -->
 
     <div id="aboutModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="content">
@@ -68,20 +71,25 @@
      </div>
     
         <div class="container">
-            <div class="row row-content">
-                <div class="col">
                     <div id="mycarousel" class="carousel slide bg-secondary" data-ride="carousel">
                         <div class="carousel-inner" role="listbox">
-                            <div class="carousel-item active">
-                                <video class="carousel_video" src="assets/animation1.mkv" autoplay></video>
-                            </div>
-        
-                            <div class="carousel-item">
+                            <div class="carousel-item active" style="width: 100%;">
                                 <video src="assets/1606097452475.3gp" class="carousel_video" controls></video>
                             </div>
         
-                            <div class="carousel-item" style="height: 40%;" >
-                                <strong>HAck Apps</strong>
+                            <div class="carousel-item" >
+                                <img class="img-fluid" src="assets/images/mylogo1.png">
+                                <div class="carousel-caption">
+                                    <strong>Hack Apps</strong>
+                                </div> 
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://www.instagram.com/invites/contact/?i=2tkl114itoia&utm_content=7asq88x" onclick="alert('You will be directed to our instagram page')">
+                                    <img class="img-fluid" src="assets/images/tree1.png" data-toggle="tooltip" data-html="true" title="Click to browse 3D Works" data-placement="bottom">
+                                    <div class="carousel-caption">
+                                        3D models
+                                    </div>
+                                </a>
                             </div>
                         </div>
                         <ol class="carousel-indicators">
@@ -95,10 +103,61 @@
                         <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
                             <span class="carousel-control-next-icon"></span>
                         </a>
+                        <!-- <div id="carouselButtons">
+                            <span class="fa fa-pause"></span>
+                        </div> -->
                     </div>
+        </div>
+
+    <div class="row mt-5">
+        <div class="col-12 col-sm-3 offset-1">
+          <div class="card">
+            <div class="card-header text-white" style="background-color: green;" data-toggle="collapse" data-target="#tutorialCard">
+                Tutorial videos
+            </div>
+            <div class="collapse show" id="tutorialCard">
+                <div class="card-body">
+                    Stuff n Random hss the richest source of tutorial videos on various digital skills
+                    <p class="mt-2 mb-0">Catch us on  <a title="Click to access tutorial videos" class="btn btn-social-icon btn-google" href="https://www.youtube.com/channel/UCTxJS_8xHXr4eYpTTBkE-DA"><i class="fa fa-youtube"></i></a> now</p>
+                </div> 
+            </div>
+          </div>
+        </div>
+
+        
+
+        <div class="col-sm-6 offset-1">
+            <div class="card">
+                <h3 class="card-header bg-primary text-white">Facts At a Glance</h3>
+                <div class="card-body">
+                    <dl class="row">
+                        <dt class="col-6">Started</dt>
+                        <dd class="col-6">3 Feb. 2013</dd>
+                        <dt class="col-6">Major Stake Holder</dt>
+                        <dd class="col-6">HK Fine Foods Inc.</dd>
+                        <dt class="col-6">Last year's Turnover</dt>
+                        <dd class="col-6">$1,250,375</dd>
+                        <dt class="col-6">Employees</dt>
+                        <dd class="col-6">40</dd>
+                    </dl>
                 </div>
             </div>
         </div>
+
+        <div class="col-12 col-sm-3 offset-1">
+            <div class="card">
+                <div class="card-header bg-danger text-white" data-toggle="collapse" data-target="#DIYCard">
+                  DYI videos
+                </div>
+                <div class="collapse" id="DIYCard">
+                    <div class="card-body">
+                        Stuff n Random hss the richest source of tutorial videos on various digital skills
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+    </div>
 
         <div style="padding: 80px;"></div>
 
@@ -138,5 +197,34 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+<script>
+    $(document).ready(function(){
+        $('#mycarousel').carousel({interval:5000});
+        $('#carousel-play').hide();
+
+        // $('#carouselButtons').click(
+        //             function(){
+        //            if($('#carouselButtons').children('span').hasClass('fa fa-pause')){
+        //             $('#mycarousel').carousel('pause');
+        //             $('#carouselButtons').children('span').removeClass('fa fa-pause');
+        //             $('#carouselButtons').children('span').addClass('fa fa-play');
+        //            }   
+        //            else{
+        //             $('#mycarousel').carousel('cycle');
+        //             $('#carouselButtons').children('span').removeClass('fa fa-play');
+        //             $('#carouselButtons').children('span').addClass('fa fa-pause');
+        //            }
+        //         });
+});
+</script>
+
+   <script>
+            $(document).ready(function(){
+                $('[data-toggle="tooltip"]').tooltip();
+            })
+        </script>
+
 </body>
 </html>
