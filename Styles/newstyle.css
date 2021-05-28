@@ -1,0 +1,38 @@
+body{
+    color: black;
+}
+
+header{
+    color: rgba(209, 206, 206, 0.815);
+    border-bottom:1px solid white ;
+}
+#Navbar li{
+    display: inline;
+    text-decoration: none;
+    margin: 15px;
+}
+
+#logo{
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.767);
+}
+.card{
+    margin: 10px;
+}
+.carousel_images{
+    width: 130px;
+}
+.carousel-item{
+    text-align: center;
+}
+.carousel_video{
+    width: 45%;
+}
+
+/* #carouselButtons{
+    background-color: teal;
+    text-align: center;
+    width: 40px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+} */
