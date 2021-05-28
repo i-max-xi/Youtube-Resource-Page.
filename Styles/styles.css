@@ -1,9 +1,10 @@
-body{
+/* body{
     color: black;
 }
 
 header{
-    color: black;
+    color: rgba(209, 206, 206, 0.815);
+    border-bottom:1px solid white ;
 }
 #Navbar li{
     display: inline;
@@ -12,7 +13,7 @@ header{
 }
 
 #logo{
-    box-shadow: 1px 1px 2px 2px black;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.767);
 }
 .card{
     margin: 10px;
@@ -25,7 +26,7 @@ header{
 }
 .carousel_video{
     width: 45%;
-}
+} */
 
 /* #carouselButtons{
     background-color: teal;

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="styles/bootstrap-social-gh-pages/bootstrap-social-gh-pages/bootstrap-social.css">
 </head>
 <body>
-    <header class="jumbotron">
+    <header class="bg-dark fixed-top" >
        
         <nav class="navbar navbar-dark navbar-expand-sm">
             <div class="container">
@@ -24,7 +24,7 @@
                         <li class="nav-item active"><a href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
                         <li class="nav-item"><a href="#" data-toggle="modal" data-target="#aboutModal"><span class="fa fa-info fa-lg"></span> About</a></li>
                         <li class="nav-item"><a href="pages/resources.html"><span class="fa fa-list fa-lg"></span> Resources</a></li>
-                        <li class="nav-item"><a href="#email" onclick="alert('Contact us by mail')"><span class="fa fa-book fa-lg"></span> Contact</a></li>
+                        <li class="nav-item"><a href="mailto:stuffnrandom@gmail.com"  onclick="alert('Contact us by mail')"><span class="fa fa-book fa-lg"></span> Contact</a></li>
                         <li class="nav-item">
                             <a data-toggle="modal" data-target="#SupportModal">
                                 <span class="fa fa-sign-in"></span> Support Us
@@ -73,9 +73,7 @@
         <div class="container">
                     <div id="mycarousel" class="carousel slide bg-secondary" data-ride="carousel">
                         <div class="carousel-inner" role="listbox">
-                            <div class="carousel-item active" style="width: 100%;">
-                                <video src="assets/1606097452475.3gp" class="carousel_video" controls></video>
-                            </div>
+                            
         
                             <div class="carousel-item" >
                                 <img class="img-fluid" src="assets/images/mylogo1.png">
@@ -83,6 +81,11 @@
                                     <strong>Hack Apps</strong>
                                 </div> 
                             </div>
+
+                            <div class="carousel-item" style="padding-top: 8%;">
+                                <video src="assets/1606097452475.3gp" class="carousel_video" controls></video>
+                            </div>
+
                             <div class="carousel-item">
                                 <a href="https://www.instagram.com/invites/contact/?i=2tkl114itoia&utm_content=7asq88x" onclick="alert('You will be directed to our instagram page')">
                                     <img class="img-fluid" src="assets/images/tree1.png" data-toggle="tooltip" data-html="true" title="Click to browse 3D Works" data-placement="bottom">
@@ -91,11 +94,18 @@
                                     </div>
                                 </a>
                             </div>
+                            <div class="carousel-item">
+                                <img class="img-fluid" src="Assets/images/packman.png">
+                                <div class="carousel-caption">
+                                    3D Rendering
+                                </div>
+                            </div>
                         </div>
                         <ol class="carousel-indicators">
                             <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
                             <li data-target="#mycarousel" data-slide-to="1"></li>
                             <li data-target="#mycarousel" data-slide-to="2"></li>
+                            <li data-target="#mycarousel" data-slide-to="3"></li>
                         </ol>
                         <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon"></span>
@@ -110,14 +120,14 @@
         </div>
 
     <div class="row mt-5">
-        <div class="col-12 col-sm-3 offset-1">
+        <div class="col-12 col-sm-3 offset-sm-1">
           <div class="card">
             <div class="card-header text-white" style="background-color: green;" data-toggle="collapse" data-target="#tutorialCard">
                 Tutorial videos
             </div>
             <div class="collapse show" id="tutorialCard">
                 <div class="card-body">
-                    Stuff n Random hss the richest source of tutorial videos on various digital skills
+                    Stuff n Random has the richest source of tutorial videos on various digital skills
                     <p class="mt-2 mb-0">Catch us on  <a title="Click to access tutorial videos" class="btn btn-social-icon btn-google" href="https://www.youtube.com/channel/UCTxJS_8xHXr4eYpTTBkE-DA"><i class="fa fa-youtube"></i></a> now</p>
                 </div> 
             </div>
@@ -126,32 +136,33 @@
 
         
 
-        <div class="col-sm-6 offset-1">
+        <div class="col-sm-6 offset-sm-1">
             <div class="card">
                 <h3 class="card-header bg-primary text-white">Facts At a Glance</h3>
                 <div class="card-body">
                     <dl class="row">
                         <dt class="col-6">Started</dt>
-                        <dd class="col-6">3 Feb. 2013</dd>
-                        <dt class="col-6">Major Stake Holder</dt>
-                        <dd class="col-6">HK Fine Foods Inc.</dd>
+                        <dd class="col-6">August 2019</dd>
+                        <dt class="col-6">Vision</dt>
+                        <dd class="col-6">To provide FREE courses and technical assistance in any digital skillset</dd>
                         <dt class="col-6">Last year's Turnover</dt>
-                        <dd class="col-6">$1,250,375</dd>
-                        <dt class="col-6">Employees</dt>
-                        <dd class="col-6">40</dd>
+                        <dd class="col-6">Over 1M personnel benefited</dd>
+                        <dt class="col-6">Services</dt>
+                        <dd class="col-6">We provide professional and freelance services in all skillsets we teach</dd>
                     </dl>
                 </div>
             </div>
         </div>
 
-        <div class="col-12 col-sm-3 offset-1">
+        <div class="col-12 col-sm-3 offset-sm-1">
             <div class="card">
                 <div class="card-header bg-danger text-white" data-toggle="collapse" data-target="#DIYCard">
                   DYI videos
                 </div>
                 <div class="collapse" id="DIYCard">
                     <div class="card-body">
-                        Stuff n Random hss the richest source of tutorial videos on various digital skills
+                        Stuff n Random has the richest source of tutorial videos on various digital skills
+                        <p class="mt-2 mb-0">Catch us on  <a title="Click to access tutorial videos" class="btn btn-social-icon btn-google" href="#"><i class="fa fa-youtube"></i></a> now</p>
                     </div>
                 </div>  
             </div>
@@ -170,7 +181,8 @@
                     <li><a href="#">Home</a></li>
                     <li><a href="#" data-toggle="modal" data-target="#aboutModal">About</a></li>
                     <li><a href="pages/resources.html">Resources</a></li>
-                    <li><a href="#email" onclick="alert('Contact us by mail')">Contact</a></li>
+                                                <a class="btn btn-social-icon" href="mailto:stuffnrandom@gmail.com" id="email"><i class="fa fa-envelope-o"></i></a>
+
                 </ul>
             </div>
             
@@ -179,7 +191,8 @@
                     <a class="btn btn-social-icon btn-google" href="https://www.youtube.com/channel/UCTxJS_8xHXr4eYpTTBkE-DA"><i class="fa fa-youtube"></i></a>
                     <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/appiah.maxwell.90834"><i class="fa fa-facebook"></i></a>
                     <a class="btn btn-social-icon btn-linkedin" href="https://www.instagram.com/invites/contact/?i=2tkl114itoia&utm_content=7asq88x"><i class="fa fa-instagram"></i></a>
-                <!-- only twitter left out  -->
+                
+                    <!-- only twitter left out.....replace twitter with Patreon -->
                     <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
                     <a class="btn btn-social-icon btn-twitter" href="https://t.me/stuffnrandom"><i class="fab fa-telegram"></i></a>
                     <a class="btn btn-social-icon" href="mailto:stuffnrandom@gmail.com" id="email"><i class="fa fa-envelope-o"></i></a>
@@ -193,7 +206,6 @@
        </div>
     </div>
 </footer>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -201,8 +213,8 @@
 
 <script>
     $(document).ready(function(){
-        $('#mycarousel').carousel({interval:5000});
-        $('#carousel-play').hide();
+        $('#mycarousel').carousel({interval:3000});
+        // $('#carousel-play').hide();
 
         // $('#carouselButtons').click(
         //             function(){
