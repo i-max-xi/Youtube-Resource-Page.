@@ -8,7 +8,10 @@ It aims to provide collective access to files needed to be downloaded for any ac
 Click [here](https://i-max-xi.github.io/Restaurant-site/) 
 to get a live preview of the project.
 
-
+## Built With:
+ - HTML
+ - CSS
+ - JavaScript.
 
 
 ## Cloning the project
