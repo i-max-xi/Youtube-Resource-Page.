@@ -1,7 +1,7 @@
 # Resource Page
 
-> This project is serves as a resource collection for the YOUTUBE channel "All 3D", formerly known as "Stuff n Random".
-The channel provides tutorials, mostlyin 3D modelling and design as well DYI videos(on how to fix technical issues).
+> This project serves as a resource collection for the YOUTUBE channel "All 3D", formerly known as "Stuff n Random".
+The channel provides tutorials, mostly in 3D modelling and design as well DYI videos(on how to fix technical issues).
 It aims to provide collective access to files needed to be downloaded for any activity on the YOUTUBE channel.
 
 
