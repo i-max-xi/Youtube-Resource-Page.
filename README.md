@@ -11,7 +11,9 @@ to get a live preview of the project.
 ## Built With:
  - HTML
  - CSS
- - JavaScript.
+ - JavaScript
+ - Scss
+ - Bootstrap
 
 
 ## Cloning the project
