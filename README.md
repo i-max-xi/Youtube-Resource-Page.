@@ -38,4 +38,5 @@ Give a ⭐️ if you like this project!
 
 ## Author
 
-- Maxwell [github](https://github.com/i-max-xi)
+Maxwell Appiah Gyimah
+[github](https://github.com/i-max-xi)
